@@ -1,0 +1,29 @@
+.svg-comp1-dims { width: 120px; height: 28px; }
+.svg-comp2-dims { width: 120px; height: 28px; }
+.svg-comp3-dims { width: 120px; height: 28px; }
+.svg-comp4-dims { width: 120px; height: 25px; }
+.svg-comp5-dims { width: 120px; height: 24px; }
+.svg-facebook-dims { width: 24px; height: 24px; }
+.svg-instagram-dims { width: 24px; height: 24px; }
+.svg-main-corners-dims { width: 135px; height: 147px; }
+.svg-something-dims { width: 24px; height: 24px; }
+.svg-star-dims { width: 20px; height: 20px; }
+.svg-twitter-dims { width: 24px; height: 24px; }
+
+._container{
+   max-width: 1280px;
+   margin: 0 auto;
+}
+.image {
+   max-width: 100%;
+}
+
+body {
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+   flex:1 1 100%;
+}

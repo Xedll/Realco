@@ -1,0 +1,126 @@
+.main {
+   position: relative;
+   height: fit-content;
+   width: 100%;
+   &__container {
+   }
+
+   &__content {
+      padding: 160px 0;
+      &>*:not(:last-child) {
+         margin-bottom: 20px;
+      }
+      max-width: 40%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__cornerOne {
+   }
+
+   &__cornerTwo {
+   }
+
+   &__tag {
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+   }
+
+   &__title {
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 67.2px; /* 120% */
+   }
+
+   &__subtitle {
+      color: #65665C;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+   }
+
+   &__search {
+      display: flex;
+   }
+
+   &__searchBox {
+      margin-right: 16px;
+      border-radius: 6px;
+      border: 1px solid #E7E8E3;
+      background: #FFF;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      padding: 10px 16px;
+   }
+   &__searchIco {
+      margin-right: 16px;
+   }
+
+   &__searchInput {
+      color: #65665C;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+   }
+
+   &__button {
+      color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+border-radius: 6px;
+border: 1px solid #CF6F49;
+background: #CF6F49;
+padding: 10px 20px;
+   }
+   &__bgLeft {
+      width: 50%;
+      height: 100%;
+      background: #F5F5F2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -2;
+   }
+   &__bgRight {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -2;
+      background: var(--bg) center/cover no-repeat;
+   }
+   &__cornerOne{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 147px;
+      width: 135px;
+      z-index:-1;
+   }
+   &__cornerTwo {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 147px;
+      width: 135px;
+      z-index:-1;
+      transform: rotate(180deg);
+   }
+}

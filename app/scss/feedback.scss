@@ -1,0 +1,98 @@
+.feedback {
+   margin:120px 0;
+   &__container {
+   }
+
+   &__head {
+      &>*:not(:last-child) {
+         margin-bottom: 26px;
+      }
+      margin-bottom: 80px;
+   }
+
+   &__title {
+      color: #2A2C1F;
+text-align: center;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 57.6px; /* 120% */
+   }
+
+   &__subtitle {
+      color: #65665C;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+   }
+
+   &__grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 32px;
+   }
+
+   &__item {
+      border-radius: 16px;
+border: 1px solid #E7E8E3;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+padding: 33px;
+   }
+
+   &__rate {
+      margin-bottom: 27px;
+      display: flex;
+      align-items: center;
+      &>*:not(:last-child) {
+         margin-right: 5px;
+      }
+   }
+
+   &__text {
+      margin-bottom: 56px;
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+   }
+
+   &__author {
+      display: flex;
+      align-items: center;
+   }
+
+   &__icon {
+      width: 48px;
+      height:48px;
+      margin-right: 16px;
+   }
+
+   &__authorAbout {
+      
+   }
+
+   &__authorName {
+      color: #2A2C1F;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+   }
+
+   &__authorProf {
+      color: #65665C;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+   }
+}

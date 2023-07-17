@@ -1,0 +1,142 @@
+.offers {
+   margin-top: 120px;
+   margin-bottom: 120px;
+   &__container {
+      &>*:not(:last-child) {
+         margin-bottom: 120px;
+      }
+      &>*:last-child{
+         flex-direction: row-reverse;
+      }
+   }
+
+   &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      column-gap: 80px;
+   }
+
+   &__itemContent {
+      max-width: 50%;
+      &>*:not(:last-child) {
+         margin-bottom: 20px;
+      }
+   }
+
+   &__itemTag {
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+border-radius: 32px;
+background: #E7E8E3;
+padding: 4px 12px;
+display: inline-block;
+   }
+
+   &__itemTitle {
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 57.6px; /* 120% */
+   }
+
+   &__itemSubtitle {
+      color: #65665C;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+   }
+
+   &__itemButtons {
+      display: flex;
+      align-items: center;
+   }
+
+   &__itemExplore {
+      color: #2A2C1F;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+padding: 13px 25px;
+border-radius: 6px;
+border: 1px solid #E7E8E3;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+margin-right: 25px;
+   }
+
+   &__itemContact {
+      color: #2A2C1F;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      display: flex;
+      align-items: center;
+      &>picture {
+         height: 8px;
+         margin-left: 10px;
+      }
+   }
+
+   &__itemImg {
+      max-width: 600px;
+      max-height: 600px;
+   }
+
+   &__itemGrid{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 25px;
+   }
+
+   &__itemAdv{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      &>*:not(:last-child) {
+         margin-bottom: 16px;
+      }
+   }
+
+   &__advIcon{
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      background: #FAE8E1;
+   }
+
+   &__advSubtitle{
+      color: #65665C;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+   }
+
+   &__advTitle{
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+   }
+}

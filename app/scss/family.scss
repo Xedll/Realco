@@ -1,0 +1,58 @@
+.family {  
+  
+   &__container { 
+      border-radius: 24px;
+      background: #65665C;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 95px 0;
+      &>*:not(:last-child) {
+         margin-bottom: 20px;
+      }
+   }
+
+   &__icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+background: #FFF;
+   }
+
+   &__title {color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 57.6px; /* 120% */
+   }
+
+   &__subtitle {
+      color: #E7E8E3;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+max-width: 60%;
+   }
+
+   &__button {
+      padding: 13px 25px;
+      border-radius: 6px;
+      border: 1px solid #CF6F49;
+      background: #CF6F49;
+      color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+   }
+}

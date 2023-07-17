@@ -1,0 +1,160 @@
+.houses {
+   background: #F5F5F2;
+   position: relative;
+   padding-bottom: 160px;
+   padding-top: 120px;
+   &__container {
+   }
+
+   &__head {
+      margin-bottom: 80px;
+      &>*:not(:last-child) {
+         margin-bottom: 20px;
+      }
+   }
+
+   &__tag { 
+      margin: 0 auto;
+      color: #2A2C1F;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+border-radius: 32px;
+background: #E7E8E3;
+padding: 4px 12px;
+max-width: fit-content;
+   }
+
+   &__title {
+      color: #2A2C1F;
+text-align: center;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 57.6px; /* 120% */
+   }
+
+   &__grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 32px;
+      margin-bottom: 80px;
+   }
+
+   &__item {
+      z-index: 2;
+      height: 460px;
+   }
+
+   &__itemBg {
+      max-height: 268px;
+      height: 100%;
+      width: 100%;
+      background: var(--bg) center/cover no-repeat;
+   }
+
+   &__itemContent {
+      border-radius: 0 0 10px 10px;
+      background: white;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      &>*:not(:last-child) {
+         margin-bottom: 16px;
+      }
+   }
+
+   &__itemTitle {
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 33.6px; /* 140% */
+   }
+
+   &__itemPrice {
+      color: #2A2C1F;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px; /* 150% */
+   }
+
+   &__itemAddress {
+      color: #65665C;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+   }
+
+   &__itemParameters {
+      display: flex;
+      align-items: center;
+      color: #65665C;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+&>*{
+   display: flex;
+   align-items: center;
+   &>picture {
+      margin-right: 10px;     
+      transform: scale(1.3);
+   }
+}
+&>*:not(:last-child ) {
+   margin-right: 25px;
+}
+   }
+
+   &__itemBathtub {
+      &>picture {
+         height: 14px;
+      }
+   }
+
+   &__itemBeds {
+      &>picture {
+       height: 10px;  
+      }
+   }
+
+   &__itemSquare {
+      &>picture {
+         height: 12px;
+      }
+   }
+   &__buttons {
+      display: block;
+      margin: 0 auto;
+      width: fit-content;
+   }
+   &__cornerOne{
+      position: absolute;
+      top: -6px;
+      right: 0;
+      height: 147px;
+      width: 135px;
+      z-index:1;
+      transform: rotate(90deg);
+   }
+   &__cornerTwo {
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      height: 147px;
+      width: 135px;
+      z-index:1;
+      transform: rotate(270deg);
+   }
+}

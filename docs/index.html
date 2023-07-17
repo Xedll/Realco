@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Realco</title>
+   <link rel="stylesheet" href="./css/style.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__container _container">
+         <div class="header__logo"><span></span>
+            <p>Realco</p>
+         </div>
+         <div class="header__content">
+            <nav class="header__nav">
+               <a href="" class="header__link">Home</a>
+               <a href="" class="header__link">Properties</a>
+               <a href="" class="header__link">About</a>
+               <a href="" class="header__link">Contact</a>
+            </nav>
+            <div class="header__buttons">
+               <button class="header__button header__search">
+                  <picture>
+                     <source type="image/avif" srcset="./images/search.avif" />
+                     <source type="image/webp" srcset="./images/search.webp" />
+                     <img class="image" src="./images/search.png">
+                  </picture>
+                  <p>Search</p>
+               </button>
+               <button class="header__button header__cart">
+                  <picture>
+                     <source type="image/avif" srcset="./images/shopping_bag.avif" />
+                     <source type="image/webp" srcset="./images/shopping_bag.webp" />
+                     <img class="image" src="./images/shopping_bag.png">
+                  </picture>
+                  <p>Cart</p>
+               </button>
+               <button class="header__button header__find">Find a property</button>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <article class="main">
+         <div class="main__container _container">
+            <div class="main__content">
+               <div class="main__tag">Find your dream place</div>
+               <div class="main__title">Find house for your family in minutes</div>
+               <div class="main__subtitle">Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum
+                  curabitur
+                  eget aliquam elit in mauris purus.</div>
+               <div class="main__search">
+                  <div class="main__searchBox">
+                     <div class="main__searchIco">
+                        <picture>
+                           <source type="image/avif" srcset="./images/search.avif" />
+                           <source type="image/webp" srcset="./images/search.webp" />
+                           <img class="image" src="./images/search.png">
+                        </picture>
+                     </div>
+                     <input type="text" placeholder="Search" class="main__searchInput">
+                  </div>
+                  <button class="main__button">Find property</button>
+               </div>
+            </div>
+         </div>
+         <div class="main__bgRight" style="--bg:url(../images/main-bg.avif)"></div>
+         <div class="main__bgLeft">
+            <div class="main__cornerOne">
+               <div class="icon-box">
+                  <img src="./images/sprite.svg#main-corners" class="svg-main-corners-dims" alt="main-corners">
+               </div>
+            </div>
+            <div class="main__cornerTwo">
+               <div class="icon-box">
+                  <img src="./images/sprite.svg#main-corners" class="svg-main-corners-dims" alt="main-corners">
+               </div>
+            </div>
+         </div>
+         </div>
+      </article>
+      <article class="companies">
+         <div class="companies__container _container">
+            <div class="companies__title">
+               As seen on the world's best magazines and media
+            </div>
+            <div class="companies__content">
+               <div class="companies__item">
+                  <div class="icon-box">
+                     <img src="./images/sprite.svg#comp1" class="svg-comp1-dims" alt="comp1">
+                  </div>
+               </div>
+               <div class="companies__item">
+                  <div class="icon-box">
+                     <img src="./images/sprite.svg#comp2" class="svg-comp2-dims" alt="comp2">
+                  </div>
+               </div>
+               <div class="companies__item">
+                  <div class="icon-box">
+                     <img src="./images/sprite.svg#comp3" class="svg-comp3-dims" alt="comp3">
+                  </div>
+               </div>
+               <div class="companies__item">
+                  <div class="icon-box">
+                     <img src="./images/sprite.svg#comp4" class="svg-comp4-dims" alt="comp4">
+                  </div>
+               </div>
+               <div class="companies__item">
+                  <div class="icon-box">
+                     <img src="./images/sprite.svg#comp5" class="svg-comp5-dims" alt="comp5">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </article>
+      <article class="how">
+         <div class="how__container _container">
+            <div class="how__title">How it works</div>
+            <div class="how__subtitle">Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur
+               pellentesque. Maecenas varius felis felis.</div>
+            <div class="how__grid">
+               <div class="how__item">
+                  <div class="how__icon">
+                     <picture>
+                        <source type="image/avif" srcset="./images/house.avif" />
+                        <source type="image/webp" srcset="./images/house.webp" />
+                        <img class="image" src="./images/house.png">
+                     </picture>
+                  </div>
+                  <div class="how__itemTitle">Find property</div>
+                  <div class="how__itemAbout">Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur eget
+                     aliquam elit. In mauris purus, auctor a eleifend non.</div>
+               </div>
+               <div class="how__item">
+                  <div class="how__icon">
+                     <picture>
+                        <source type="image/avif" srcset="./images/receipt.avif" />
+                        <source type="image/webp" srcset="./images/receipt.webp" />
+                        <img class="image" src="./images/receipt.png">
+                     </picture>
+                  </div>
+                  <div class="how__itemTitle">Make a deal</div>
+                  <div class="how__itemAbout">Pellentesque suscipit mauris. Nam dictum, erat a volutpat varius, urna nisi
+                     sollicitudin orci, sagittis facilisis odio tortor ac mi.</div>
+               </div>
+               <div class="how__item">
+                  <div class="how__icon">
+                     <picture>
+                        <source type="image/avif" srcset="./images/key.avif" />
+                        <source type="image/webp" srcset="./images/key.webp" />
+                        <img class="image" src="./images/key.png">
+                     </picture>
+                  </div>
+                  <div class="how__itemTitle">Get your keys</div>
+                  <div class="how__itemAbout">Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum. Duis semper,
+                     metus vitae fermentum consequat.</div>
+               </div>
+            </div>
+         </div>
+      </article>
+      <article class="offers">
+         <div class="offers__container _container">
+            <div class="offers__item">
+               <div class="offers__itemContent">
+                  <div class="offers__itemTag">Comfort first</div>
+                  <div class="offers__itemTitle">The best houses for family comfort</div>
+                  <div class="offers__itemSubtitle">Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin
+                     sollicitudin, lorem non posuere blandit.</div>
+                  <div class="offers__itemButtons">
+                     <a href="" class="offers__itemExplore">Explore properties</a>
+                     <a href="" class="offers__itemContact">
+                        <p>Contact agent</p>
+                        <picture>
+                           <source type="image/avif" srcset="./images/right.avif" />
+                           <source type="image/webp" srcset="./images/right.webp" />
+                           <img class="image" src="./images/right.png">
+                        </picture>
+                     </a>
+                  </div>
+               </div>
+               <div class="offers__itemImg">
+                  <picture>
+                     <source type="image/avif" srcset="./images/offers1.avif" />
+                     <source type="image/webp" srcset="./images/offers1.webp" />
+                     <img class="image" src="./images/offers1.png">
+                  </picture>
+               </div>
+            </div>
+            <div class="offers__item">
+               <div class="offers__itemContent">
+                  <div class="offers__itemTag">Quick and easy</div>
+                  <div class="offers__itemTitle">Fast forward process</div>
+                  <div class="offers__itemSubtitle">Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit amet mi
+                     arcu praesent nec felis nisl.</div>
+                  <div class="offers__itemGrid">
+                     <div class="offers__itemAdv">
+                        <div class="offers__advIcon">
+                           <picture>
+                              <source type="image/avif" srcset="./images/payments.avif" />
+                              <source type="image/webp" srcset="./images/payments.webp" />
+                              <img class="image" src="./images/payments.png">
+                           </picture>
+                        </div>
+                        <div class="offers__advTitle">Affordable prices</div>
+                        <div class="offers__advSubtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                           varius enim in eros.</div>
+                     </div>
+                     <div class="offers__itemAdv">
+                        <div class="offers__advIcon">
+                           <picture>
+                              <source type="image/avif" srcset="./images/description.avif" />
+                              <source type="image/webp" srcset="./images/description.webp" />
+                              <img class="image" src="./images/description.png">
+                           </picture>
+                        </div>
+                        <div class="offers__advTitle">Less paper work</div>
+                        <div class="offers__advSubtitle">Curabitur porta luctus semper donec eget lobortis leo ac finibus
+                           nisi.</div>
+                     </div>
+                  </div>
+                  <div class="offers__itemButtons">
+                     <a href="" class="offers__itemExplore">Explore properties</a>
+                     <a href="" class="offers__itemContact">
+                        <p>Contact agent</p>
+                        <picture>
+                           <source type="image/avif" srcset="./images/right.avif" />
+                           <source type="image/webp" srcset="./images/right.webp" />
+                           <img class="image" src="./images/right.png">
+                        </picture>
+                     </a>
+                  </div>
+               </div>
+               <div class="offers__itemImg">
+                  <picture>
+                     <source type="image/avif" srcset="./images/offers2.avif" />
+                     <source type="image/webp" srcset="./images/offers2.webp" />
+                     <img class="image" src="./images/offers2.png">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </article>
+      <article class="houses">
+         <div class="houses__container _container">
+            <div class="houses__head">
+               <div class="houses__tag">Properties</div>
+               <div class="houses__title">Houses in your favorite area</div>
+            </div>
+            <div class="houses__grid">
+               <div class="houses__item">
+                  <div class="houses__itemBg" style="--bg:url(../images/houses1.avif)"></div>
+                  <div class="houses__itemContent">
+                     <div class="houses__itemTitle">Cozy studio in Los Angeles</div>
+                     <div class="houses__itemPrice">$ 1,200.00 USD</div>
+                     <div class="houses__itemAddress">2263 Southlea, Los Angeles</div>
+                     <div class="houses__itemParameters">
+                        <div class="houses__itemBathtub">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bathtub.avif" />
+                              <source type="image/webp" srcset="./images/bathtub.webp" />
+                              <img class="image" src="./images/bathtub.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemBeds">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bed.avif" />
+                              <source type="image/webp" srcset="./images/bed.webp" />
+                              <img class="image" src="./images/bed.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemSquare">
+                           <picture>
+                              <source type="image/avif" srcset="./images/square_foot.avif" />
+                              <source type="image/webp" srcset="./images/square_foot.webp" />
+                              <img class="image" src="./images/square_foot.png">
+                           </picture>
+                           <p>840 sqft</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="houses__item">
+                  <div class="houses__itemBg" style="--bg:url(../images/houses1.avif)"></div>
+                  <div class="houses__itemContent">
+                     <div class="houses__itemTitle">Cozy studio in Los Angeles</div>
+                     <div class="houses__itemPrice">$ 1,200.00 USD</div>
+                     <div class="houses__itemAddress">2263 Southlea, Los Angeles</div>
+                     <div class="houses__itemParameters">
+                        <div class="houses__itemBathtub">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bathtub.avif" />
+                              <source type="image/webp" srcset="./images/bathtub.webp" />
+                              <img class="image" src="./images/bathtub.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemBeds">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bed.avif" />
+                              <source type="image/webp" srcset="./images/bed.webp" />
+                              <img class="image" src="./images/bed.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemSquare">
+                           <picture>
+                              <source type="image/avif" srcset="./images/square_foot.avif" />
+                              <source type="image/webp" srcset="./images/square_foot.webp" />
+                              <img class="image" src="./images/square_foot.png">
+                           </picture>
+                           <p>840 sqft</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="houses__item">
+                  <div class="houses__itemBg" style="--bg:url(../images/houses1.avif)"></div>
+                  <div class="houses__itemContent">
+                     <div class="houses__itemTitle">Cozy studio in Los Angeles</div>
+                     <div class="houses__itemPrice">$ 1,200.00 USD</div>
+                     <div class="houses__itemAddress">2263 Southlea, Los Angeles</div>
+                     <div class="houses__itemParameters">
+                        <div class="houses__itemBathtub">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bathtub.avif" />
+                              <source type="image/webp" srcset="./images/bathtub.webp" />
+                              <img class="image" src="./images/bathtub.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemBeds">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bed.avif" />
+                              <source type="image/webp" srcset="./images/bed.webp" />
+                              <img class="image" src="./images/bed.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemSquare">
+                           <picture>
+                              <source type="image/avif" srcset="./images/square_foot.avif" />
+                              <source type="image/webp" srcset="./images/square_foot.webp" />
+                              <img class="image" src="./images/square_foot.png">
+                           </picture>
+                           <p>840 sqft</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="houses__item">
+                  <div class="houses__itemBg" style="--bg:url(../images/houses1.avif)"></div>
+                  <div class="houses__itemContent">
+                     <div class="houses__itemTitle">Cozy studio in Los Angeles</div>
+                     <div class="houses__itemPrice">$ 1,200.00 USD</div>
+                     <div class="houses__itemAddress">2263 Southlea, Los Angeles</div>
+                     <div class="houses__itemParameters">
+                        <div class="houses__itemBathtub">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bathtub.avif" />
+                              <source type="image/webp" srcset="./images/bathtub.webp" />
+                              <img class="image" src="./images/bathtub.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemBeds">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bed.avif" />
+                              <source type="image/webp" srcset="./images/bed.webp" />
+                              <img class="image" src="./images/bed.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemSquare">
+                           <picture>
+                              <source type="image/avif" srcset="./images/square_foot.avif" />
+                              <source type="image/webp" srcset="./images/square_foot.webp" />
+                              <img class="image" src="./images/square_foot.png">
+                           </picture>
+                           <p>840 sqft</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="houses__item">
+                  <div class="houses__itemBg" style="--bg:url(../images/houses1.avif)"></div>
+                  <div class="houses__itemContent">
+                     <div class="houses__itemTitle">Cozy studio in Los Angeles</div>
+                     <div class="houses__itemPrice">$ 1,200.00 USD</div>
+                     <div class="houses__itemAddress">2263 Southlea, Los Angeles</div>
+                     <div class="houses__itemParameters">
+                        <div class="houses__itemBathtub">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bathtub.avif" />
+                              <source type="image/webp" srcset="./images/bathtub.webp" />
+                              <img class="image" src="./images/bathtub.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemBeds">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bed.avif" />
+                              <source type="image/webp" srcset="./images/bed.webp" />
+                              <img class="image" src="./images/bed.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemSquare">
+                           <picture>
+                              <source type="image/avif" srcset="./images/square_foot.avif" />
+                              <source type="image/webp" srcset="./images/square_foot.webp" />
+                              <img class="image" src="./images/square_foot.png">
+                           </picture>
+                           <p>840 sqft</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="houses__item">
+                  <div class="houses__itemBg" style="--bg:url(../images/houses1.avif)"></div>
+                  <div class="houses__itemContent">
+                     <div class="houses__itemTitle">Cozy studio in Los Angeles</div>
+                     <div class="houses__itemPrice">$ 1,200.00 USD</div>
+                     <div class="houses__itemAddress">2263 Southlea, Los Angeles</div>
+                     <div class="houses__itemParameters">
+                        <div class="houses__itemBathtub">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bathtub.avif" />
+                              <source type="image/webp" srcset="./images/bathtub.webp" />
+                              <img class="image" src="./images/bathtub.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemBeds">
+                           <picture>
+                              <source type="image/avif" srcset="./images/bed.avif" />
+                              <source type="image/webp" srcset="./images/bed.webp" />
+                              <img class="image" src="./images/bed.png">
+                           </picture>
+                           <p>2</p>
+                        </div>
+                        <div class="houses__itemSquare">
+                           <picture>
+                              <source type="image/avif" srcset="./images/square_foot.avif" />
+                              <source type="image/webp" srcset="./images/square_foot.webp" />
+                              <img class="image" src="./images/square_foot.png">
+                           </picture>
+                           <p>840 sqft</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="houses__buttons">
+               <div class="offers__itemButtons">
+                  <a href="" class="offers__itemExplore">Explore properties</a>
+                  <a href="" class="offers__itemContact">
+                     <p>Contact agent</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="houses__cornerOne">
+            <div class="icon-box">
+               <img src="./images/sprite.svg#main-corners" class="svg-main-corners-dims" alt="main-corners">
+            </div>
+         </div>
+         <div class="houses__cornerTwo">
+            <div class="icon-box">
+               <img src="./images/sprite.svg#main-corners" class="svg-main-corners-dims" alt="main-corners">
+            </div>
+         </div>
+      </article>
+      <article class="locations">
+         <div class="locations__container _container">
+            <div class="locations__head">
+               <div class="locations__title">Locations</div>
+               <div class="locations__subtitle">Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna,
+                  aliquet non nisl sit amet.</div>
+            </div>
+            <div class="locations__grid">
+               <div class="locations__item">
+                  <div class="locations__itemTitle">San Francisco, CA</div>
+                  <a href="" class="locations__itemButton">
+                     <p>View Properties</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+               <div class="locations__item">
+                  <div class="locations__itemTitle">San Francisco, CA</div>
+                  <a href="" class="locations__itemButton">
+                     <p>View Properties</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+               <div class="locations__item">
+                  <div class="locations__itemTitle">San Francisco, CA</div>
+                  <a href="" class="locations__itemButton">
+                     <p>View Properties</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+               <div class="locations__item">
+                  <div class="locations__itemTitle">San Francisco, CA</div>
+                  <a href="" class="locations__itemButton">
+                     <p>View Properties</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+               <div class="locations__item">
+                  <div class="locations__itemTitle">San Francisco, CA</div>
+                  <a href="" class="locations__itemButton">
+                     <p>View Properties</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+               <div class="locations__item">
+                  <div class="locations__itemTitle">San Francisco, CA</div>
+                  <a href="" class="locations__itemButton">
+                     <p>View Properties</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+            </div>
+            <div class="locations__buttons">
+               <div class="offers__itemButtons">
+                  <a href="" class="offers__itemExplore">Explore properties</a>
+                  <a href="" class="offers__itemContact">
+                     <p>Contact agent</p>
+                     <picture>
+                        <source type="image/avif" srcset="./images/right.avif" />
+                        <source type="image/webp" srcset="./images/right.webp" />
+                        <img class="image" src="./images/right.png">
+                     </picture>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </article>
+      <article class="family">
+         <div class="family__container _container">
+            <div class="family__icon">
+               <picture>
+                  <source type="image/avif" srcset="./images/family_restroom.avif" />
+                  <source type="image/webp" srcset="./images/family_restroom.webp" />
+                  <img class="image" src="./images/family_restroom.png">
+               </picture>
+            </div>
+            <div class="family__title">Families are our priority</div>
+            <div class="family__subtitle">Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non, placerat vel
+               arcu. In non consectetur lorem. Morbi non varius sapien suscipit mauri.</div>
+            <button class="family__button">Get started</button>
+         </div>
+      </article>
+      <article class="feedback">
+         <div class="feedback__container _container">
+            <div class="feedback__head">
+               <div class="feedback__title">What customers say</div>
+               <div class="feedback__subtitle">Faucibus orci luctus et ultrices posuere cubilia curae.</div>
+            </div>
+            <div class="feedback__grid">
+               <div class="feedback__item">
+                  <div class="feedback__rate">
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                  </div>
+                  <div class="feedback__text">"Aliquam erat volutpat. Nulla pretium nec urna et convallis. Ut varius mi lacus,
+                     nec molestie libero ultricies nec. Aenean lacinia dui elit, ut gravida quam."</div>
+                  <div class="feedback__author">
+                     <div class="feedback__icon">
+                        <picture>
+                           <source type="image/avif" srcset="./images/feedback1.avif" />
+                           <source type="image/webp" srcset="./images/feedback1.webp" />
+                           <img class="image" src="./images/feedback1.png">
+                        </picture>
+                     </div>
+                     <div class="feedback__authorAbout">
+                        <div class="feedback__authorName">Michael Webb</div>
+                        <div class="feedback__authorProf">Customer</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="feedback__item">
+                  <div class="feedback__rate">
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                  </div>
+                  <div class="feedback__text">"Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                     inceptos himenaeos. Morbi pretium iaculis ultricies. Aenean in leo vitae tortor."</div>
+                  <div class="feedback__author">
+                     <div class="feedback__icon">
+                        <picture>
+                           <source type="image/avif" srcset="./images/feedback2.avif" />
+                           <source type="image/webp" srcset="./images/feedback2.webp" />
+                           <img class="image" src="./images/feedback2.png">
+                        </picture>
+                     </div>
+                     <div class="feedback__authorAbout">
+                        <div class="feedback__authorName">Amber Keene</div>
+                        <div class="feedback__authorProf">Customer</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="feedback__item">
+                  <div class="feedback__rate">
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                     <div class="icon-box">
+                        <img src="./images/sprite.svg#star" class="svg-star-dims" alt="star">
+                     </div>
+                  </div>
+                  <div class="feedback__text">"Condimentum viverra orci. Pellentesque suscipit odio nisl, non ultricies purus
+                     mattis eget. In placerat, lorem a sodales ullamcorper, eros nibh laoreet nisl."</div>
+                  <div class="feedback__author">
+                     <div class="feedback__icon">
+                        <picture>
+                           <source type="image/avif" srcset="./images/feedback3.avif" />
+                           <source type="image/webp" srcset="./images/feedback3.webp" />
+                           <img class="image" src="./images/feedback3.png">
+                        </picture>
+                     </div>
+                     <div class="feedback__authorAbout">
+                        <div class="feedback__authorName">Sarah Tarleton</div>
+                        <div class="feedback__authorProf">Customer</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </article>
+      <article class="posts">
+         <div class="posts__container _container">
+            <div class="posts__head">
+               <div class="posts__tag">Blog</div>
+               <div class="posts__title">Latest posts</div>
+               <div class="posts__subtitle">
+                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Praesent
+                     efficitur nibh massa morbi sagittis ornare dui in ornare.</p>
+                  <button>View all</button>
+               </div>
+            </div>
+            <div class="posts__content">
+               <div class="posts__item">
+                  <div class="posts__itemBg" style="--bg:url(../images/posts1.avif)"></div>
+                  <div class="posts__itemContent">
+                     <div class="posts__itemHead">
+                        <div class="posts__itemTag">Trends</div>
+                        <div class="posts__itemDate">May 10, 2022</div>
+                     </div>
+                     <div class="posts__itemTitle">The 9 best homes in New York</div>
+                     <div class="posts__itemAbout">Integer tincidunt rutrum faucibus. Proin sit amet varius arcu. Aliquam vel
+                        leo augue donec.</div>
+                     <button class="posts__itemButton">
+                        <p>Read more</p>
+                        <picture>
+                           <source type="image/avif" srcset="./images/right.avif" />
+                           <source type="image/webp" srcset="./images/right.webp" />
+                           <img class="image" src="./images/right.png">
+                        </picture>
+                     </button>
+                  </div>
+               </div>
+               <div class="posts__item">
+                  <div class="posts__itemBg" style="--bg:url(../images/posts1.avif)"></div>
+                  <div class="posts__itemContent">
+                     <div class="posts__itemHead">
+                        <div class="posts__itemTag">Trends</div>
+                        <div class="posts__itemDate">May 10, 2022</div>
+                     </div>
+                     <div class="posts__itemTitle">The 9 best homes in New York</div>
+                     <div class="posts__itemAbout">Integer tincidunt rutrum faucibus. Proin sit amet varius arcu. Aliquam vel
+                        leo augue donec.</div>
+                     <button class="posts__itemButton">
+                        <p>Read more</p>
+                        <picture>
+                           <source type="image/avif" srcset="./images/right.avif" />
+                           <source type="image/webp" srcset="./images/right.webp" />
+                           <img class="image" src="./images/right.png">
+                        </picture>
+                     </button>
+                  </div>
+               </div>
+               <div class="posts__item">
+                  <div class="posts__itemBg" style="--bg:url(../images/posts1.avif)"></div>
+                  <div class="posts__itemContent">
+                     <div class="posts__itemHead">
+                        <div class="posts__itemTag">Trends</div>
+                        <div class="posts__itemDate">May 10, 2022</div>
+                     </div>
+                     <div class="posts__itemTitle">The 9 best homes in New York</div>
+                     <div class="posts__itemAbout">Integer tincidunt rutrum faucibus. Proin sit amet varius arcu. Aliquam vel
+                        leo augue donec.</div>
+                     <button class="posts__itemButton">
+                        <p>Read more</p>
+                        <picture>
+                           <source type="image/avif" srcset="./images/right.avif" />
+                           <source type="image/webp" srcset="./images/right.webp" />
+                           <img class="image" src="./images/right.png">
+                        </picture>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </article>
+   </main>
+   <footer class="footer">
+      <div class="footer__container _container">
+         <div class="footer__content">
+            <div class="footer__logo">
+               <div class="header__logo"><span></span>
+                  <p>Realco</p>
+               </div>
+            </div>
+            <div class="footer__grid">
+               <div class="footer__item">
+                  <a href="" class="footer__itemTitle">Pages</a>
+                  <div class="footer__itemList">
+                     <a href="">Home</a>
+                     <a href="">About</a>
+                     <a href="">Blog</a>
+                     <a href="">Agents</a>
+                     <a href="">Contacts</a>
+                     <a href="">FAQs</a>
+                     <a href="">Properties</a>
+                  </div>
+               </div>
+               <div class="footer__item">
+                  <a href="" class="footer__itemTitle">CMS Pages</a>
+                  <div class="footer__itemList">
+                     <a href="">Property</a>
+                     <a href="">Property Single</a>
+                     <a href="">Blog Categories</a>
+                     <a href="">Blog Single</a>
+                     <a href="">Agent Single</a>
+                  </div>
+               </div>
+               <div class="footer__item">
+                  <a href="" class="footer__itemTitle">Utility Pages</a>
+                  <div class="footer__itemList">
+                     <a href="">Style Guide</a>
+                     <a href="">Changelog</a>
+                     <a href="">Licenses</a>
+                     <a href="">404</a>
+                     <a href="">Password</a>
+                     <a href="">Search</a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__form">
+               <div class="footer__formTitle">Subscribe</div>
+               <div class="footer__formAbout">Join our newsletter to stay up to date on features and releases.</div>
+               <div class="footer__formInputs">
+                  <input placeholder="Enter your email" type="text" class="footer__formInput">
+                  <button class="footer__formButton">Subscribe</button>
+               </div>
+               <div class="footer__formSubs">By subscribing you agree to with our <a href="">Privacy Policy</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="footer__bottom">
+         <div class="footer__bottoomContainer _container">
+            <div class="footer__copyright">
+               © Realco by <a href="">Minimal Square</a>
+            </div>
+            <div class="footer__socials">
+               <div class="icon-box">
+                  <img src="./images/sprite.svg#facebook" class="svg-facebook-dims" alt="facebook">
+               </div>
+               <div class="icon-box">
+                  <img src="./images/sprite.svg#instagram" class="svg-instagram-dims" alt="instagram">
+               </div>
+               <div class="icon-box">
+                  <img src="./images/sprite.svg#twitter" class="svg-twitter-dims" alt="twitter">
+               </div>
+               <div class="icon-box">
+                  <img src="./images/sprite.svg#something" class="svg-something-dims" alt="something">
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="./js/dist/main.min.js"></script>
+   
+   </html>
+</body>
